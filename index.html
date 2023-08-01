@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html lang="en>
+    <head>
+        <title>Facebook Clone</title>
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width=device-width, 
+        initial-scale = 1">
+        <link rel="stylesheet" href="css/font5/all.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__logo-section">
+                <div class="header__logo-icon">
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <div class="header__logo-search">
+                    <i class="fas fa-search"></i>
+                    <input type="text">
+                </div>
+                <div class="header__mobile-button">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+            <div class="header__menu-tabs">
+                <div class="header__menu-tab header__menu-tab--active">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="header__menu-tab">
+                    <i class="fas fa-flag">
+                        <div class="header__notification-bubble">
+                            3
+                        </div>
+                    </i>
+                </div>
+                <div class="header__menu-tab">
+                    <i class="fas fa-tv">
+                        <div class="header__notification-bubble">
+                            9
+                        </div>
+                    </i>
+                </div>
+                <div class="header__menu-tab">
+                    <i class="fas fa-store"></i>
+                </div>
+                <div class="header__menu-tab">
+                    <i class="fas fa-users"></i>
+                </div>
+            </div>
+            <div class="header__account">
+                <div class="header__actions">
+                    <img src="https://xsgames.co/randomusers/avatar.php?g=female"
+                    class="header__user-img">
+                    <span class="header__user-name">Jane Doe</span>
+                    <a href="#" class="header__circle-link">
+                        <i class="header__link-icon fas fa-plus"></i>
+                    </a>
+                    <a href="#" class="header__circle-link">
+                        <i class="header__link-icon fab fa-facebook-messenger">
+                            <div class="header__link-bubble">
+                                6
+                            </div>
+                        </i>
+                    </a>
+                    <a href="#" class="header__circle-link">
+                        <i class="header__link-icon fas fa-bell">
+                            <div class="header__link-bubble">
+                                6
+                            </div>
+                        </i>
+                    </a>
+                    <a href="#" class="header__circle-link">
+                        <i class="header__link-icon fas fa-sort-down"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section class="content-area content-area--feed">
+            <section class="sidenav">
+                <div class="sidenav__item">
+                    <img src="https://xsgames.co/randomusers/avatar.php?g=female" class="sidenav__item-img">
+                <span class="sidenav__item-title">
+                    Jane Doe
+                </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                        <span class="sidenav__item-title">
+                            Friends
+                        </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                        <span class="sidenav__item-title">
+                            Pages
+                            <span class="sidenav__item-notification">
+                            <div class="sidenav__item-notification-circle"></div>9+ new
+                            </span>
+                        </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav_item-icon--circle-white">
+                        <i class="fas fa-users"></i>
+                    </div>
+                        <span class="sidenav__item-title">
+                            Groups
+                            <span class="sidenav__item-notification">
+                            <div class="sidenav__item-notification-circle"></div>3+ new
+                            </span>
+                        </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                        <span class="sidenav__item-title">
+                            Marketplace
+                        </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                        <span class="sidenav__item-title">
+                            See More
+                        </span>
+                </div>
+                <div class="sidenav__line"></div>
+                <span class="sidenav__heading-title">
+                    Your shortcuts
+                </span>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                        <span class="sidenav__item-title">
+                            Coding Phase Groups
+                        </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                        <span class="sidenav__item-title">
+                            ClickFunnels
+                        </span>
+                </div>
+                <div class="sidenav__item">
+                    <img src="https://cdns-images.dzcdn.net/images/artist/1b2feff3c2599ee3f5166c805831cd8f/500x500.jpg" class="sidenav__item-img">
+                <span class="sidenav__item-title">
+                    Kenny Mason
+                </span>
+                </div>
+                <div class="sidenav__item">
+                    <img src="https://pbs.twimg.com/profile_images/1595116078023131136/2d8RwRJy_400x400.jpg" class="sidenav__item-img">
+                <span class="sidenav__item-title">
+                    System 76 Community
+                </span>
+                </div>
+                </section> 
+        
+        <section class="feed">
+            <div class="stories">
+                <div class="stories__video-container">
+                    <img class="stories__bg" src="https://i.ytimg.com/vi/6CB5BzBNKYY/maxresdefault.jpg">
+                <div class="stories__title">
+                        <div class="stories__new-btn">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    Create A Story
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img class="stories__bg" src="https://media.tenor.com/CFtkOH94F2sAAAAC/jean-dawson.gif">
+                    <div class="stories__title">
+                        <img class="stoires__user" src="https://as2.ftcdn.net/v2/jpg/04/08/22/73/1000_F_408227390_AJvo3bR7Z5vOlSDi385gGTbUKE6wBbUB.jpg">
+                        Robot User1
+                    </div>
+                </div>
+
+                <div class="stories__video-container stories__video-container--plain">
+                    <img class="stories__bg" src="https://res.cloudinary.com/offstream/image/upload/v1605061716/nqxykj7aoeznf7hhs4gm.gif">
+                    <div class="stories__title">
+                        <img class="stoires__user" src="https://as2.ftcdn.net/v2/jpg/04/08/22/73/1000_F_408227390_AJvo3bR7Z5vOlSDi385gGTbUKE6wBbUB.jpg">
+                        Robot User2
+                    </div>
+                </div>
+
+                <div class="stories__video-container stories__video-container--plain">
+                    <img class="stories__bg" src="https://64.media.tumblr.com/81516f34b60419baadb8719bbcaa1224/531d8638d11e2773-89/s540x810/a5c3eb0d9b951e48d9606281d52d47baab886ff3.gif">
+                    <div class="stories__title">
+                        <img class="stoires__user" src="https://as2.ftcdn.net/v2/jpg/04/08/22/73/1000_F_408227390_AJvo3bR7Z5vOlSDi385gGTbUKE6wBbUB.jpg">
+                        Robot User3
+                    </div>
+                </div>
+
+                <div class="stories__video-container stories__video-container--plain">
+                    <img class="stories__bg" src="https://media.tenor.com/5_w3F2tduSEAAAAd/jean-dawson.gif">
+                    <div class="stories__title">
+                        <img class="stoires__user" src="https://as2.ftcdn.net/v2/jpg/04/08/22/73/1000_F_408227390_AJvo3bR7Z5vOlSDi385gGTbUKE6wBbUB.jpg">
+                        Robot User4
+                    </div>
+                </div>
+
+                <div class="stories__video-container stories__video-container--plain">
+                    <img class="stories__bg" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmMwNzA5ZjgwNDg2ZDAwYzVjZGNlNzkxNjJkZTkxNGJkMmNlY2QxYyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/CU4A5oxrflvpNdX6k5/giphy.gif">
+                    <div class="stories__title">
+                        <img class="stoires__user" src="https://as2.ftcdn.net/v2/jpg/04/08/22/73/1000_F_408227390_AJvo3bR7Z5vOlSDi385gGTbUKE6wBbUB.jpg">
+                        Robot User5
+                    </div>
+                </div>
+           
+            </div>
+            <div class="feed__box submitpost">
+                <div class="newpost">
+                    <img class = "newpost__user-img" src="https://xsgames.co/randomusers/avatar.php?g=female">
+                    <input type="text" placeholder="What's on your mind, Jane Doe?">
+                </div>
+                <div class="hline"></div>
+                <div class="post-types">
+                    <div class="post-types__item">
+                        <i class="fas fa-video"></i> <span class="post-types__title">Live Video</span>
+                    </div>
+                    <div class="post-types__item">
+                        <i class="fas fa-photo-video"></i><span class="post-types__title">Photo Video</span>
+                    </div>
+                    <div class="post-types__item">
+                        <i class="fas fa-laugh-beam"></i><span class="post-types__title">Feeling/Activity</span>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="feed__box photopost">
+                <div class="photopost__info">
+                    <div class="photopost__left">
+                        <img src="https://as2.ftcdn.net/v2/jpg/04/08/22/73/1000_F_408227390_AJvo3bR7Z5vOlSDi385gGTbUKE6wBbUB.jpg">
+                        <div class="photopost__details">
+                            <span class="photopost__name">User</span>
+                            <span class="photopost__date">June 3 at 8:00pm<i class="fas fa-user-friends"></i></span>
+                        </div>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+               
+                <div class="photopost__description">
+                Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet.
+               </div>
+               
+               <div class="photopost__image">
+                <img src="https://media.npr.org/assets/img/2023/05/24/gettyimages-1358149692-bf96c07fc26040785771044ba8470ff9d73a928c-s1100-c50.jpg">
+               </div>
+               
+               <div class="photopost__stas">
+                    <div class="photopost__stas-emojis">
+                        <div class="emoji-circle emoji-circle--blue">
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="emoji-circle emoji-circle--red">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="emoji-circle emoji-circle--yellow">
+                            <i class="fas fa-surprise"></i>
+                        </div>
+                        4.4k
+                    </div>
+                    <div class="photopost__stats-share">
+                        600 Comments 66 Shares
+                    </div>
+               </div>     
+               <div class="hline"></div>
+                <div class="photopost__actions">
+                    <a href="#" class="photopost__link">
+                        <i class="fas fa-thumbs-up"></i> Like
+                    </a>
+                    <a href="#" class="photopost__link">
+                        <i class="fas fa-comment"></i> Comment
+                    </a>
+                    <a href="#" class="photopost__link">
+                        <i class="fas fa-share"></i> Share
+                    </a>
+                </div>
+                <div class="hline"></div> 
+            </div>
+        </section>
+    </section>
+   
+    <section class="floatingmsg">
+        <div class="floatingmsg__bubble">
+            <img src="https://i.pravatar.cc/150?img=1">
+            <div class="floatingmsg__notification">1</div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://i.pravatar.cc/150?img=2">
+            <div class="floatingmsg__notification">2</div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://i.pravatar.cc/150?img=3">
+            <div class="floatingmsg__notification">3</div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://i.pravatar.cc/150?img=4">
+            <div class="floatingmsg__notification">4</div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://i.pravatar.cc/150?img=5">
+            <div class="floatingmsg__notification">5</div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <i class="fas fa-edit"></i>
+        </div>
+    </section>
+
+    </body>
+</html>
